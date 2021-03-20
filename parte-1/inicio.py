@@ -1,3 +1,7 @@
+'''
+a biblioteca SpaCy já tem por default diversos algorítimos de redes neurais convulucionais 
+'''
+
 import spacy
 pln = spacy.load('pt')
 
