@@ -1,0 +1,4 @@
+lematização = análise morfológica da palavra
+stemização = extrai o radical da palavra
+reconhecimento de entidades nomeadas (PER, LOC, ORG.. etc)
+parsing de dependência = ligação entre as palavras

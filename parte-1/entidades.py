@@ -1,7 +1,8 @@
 '''
 
 NER (Named-Entity Recognition)
-Encontrar e classificar entidades no texto, dependendo da base de dados que foi utilizada para o treinamento (pessoa, localização, empresa, numéricos)
+Encontrar e classificar entidades no texto, 
+dependendo da base de dados que foi utilizada para o treinamento (pessoa, localização, empresa, numéricos)
 Usado em chatbots para saber o assunto falado
 Siglas: https://spacy.io/api/annotation#named-entities
 
@@ -33,7 +34,8 @@ print(psg)
 '''
 
 # encontrar pessoas PER
-texto2 = 'Bill Gates nasceu em Seattle em 28/10/1955 e foi o criador da Microsoft'
+texto2 = 'Xuxa e Ronaldinho são bem conhecidos, mas Baratt, Carlos e Carla não são'
+#texto2 = 'Bill Gates nasceu em Seattle em 28/10/1955 e foi o criador da Microsoft'
 documento2 = pln(texto2)
 for entidade in documento2.ents:
     if entidade.label_ == 'PER':

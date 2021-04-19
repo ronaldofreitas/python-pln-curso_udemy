@@ -14,7 +14,8 @@ from spacy.lang.pt.stop_words import STOP_WORDS
 #print(pln.vocab['ir'].is_stop) # True
 #print(pln.vocab['caminhar'].is_stop) # False
 
-documento = pln('Estou aprendendo processamento de linguagem natural, curso em curitiba')
+documento = pln('o globo terrestre foi mostrado na Globo')
+#documento = pln('Estou aprendendo processamento de linguagem natural, curso em curitiba')
 for token in documento:
     if not pln.vocab[token.text].is_stop:
         print(token.text)
