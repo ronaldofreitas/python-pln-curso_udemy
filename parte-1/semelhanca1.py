@@ -4,7 +4,10 @@ GloVe = é um algoritimo usado para fazer calculo de relacionamento entre palavr
 
 import spacy
 from spacy import displacy
-pln = spacy.load('pt')
+#pln = spacy.load('pt')
+#pln = spacy.load('pt_core_news_sm')
+pln = spacy.load('pt_core_news_lg')
+
 
 '''p1 = pln('olá')
 p2 = pln('oi')

@@ -1,7 +1,8 @@
 
 import spacy
 from spacy import displacy
-pln = spacy.load('pt')
+#pln = spacy.load('pt')
+pln = spacy.load('pt_core_news_sm')
 
 texto = pln('gato cachorro cavalo pessoa')
 
